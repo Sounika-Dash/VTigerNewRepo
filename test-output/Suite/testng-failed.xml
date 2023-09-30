@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.CRM.VTiger.organizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="ToLaunchBrowser"/>
+          <include name="CloseTheBrowser"/>
+          <include name="CloseDatabaseConnection"/>
+          <include name="createOrganization"/>
+          <include name="DatabaseConnection"/>
+          <include name="LoginToTheApplication"/>
+          <include name="LogoutFromTheApplication"/>
+        </methods>
+      </class> <!-- com.CRM.VTiger.organizationTest.CreateOrganizationTest -->
+      <class name="com.CRM.VTiger.organizationTest.CreateMultipleOrganizationTest">
+        <methods>
+          <include name="ToLaunchBrowser"/>
+          <include name="CloseTheBrowser"/>
+          <include name="CloseDatabaseConnection"/>
+          <include name="DatabaseConnection"/>
+          <include name="LoginToTheApplication"/>
+          <include name="multipleOrg"/>
+          <include name="LogoutFromTheApplication"/>
+        </methods>
+      </class> <!-- com.CRM.VTiger.organizationTest.CreateMultipleOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

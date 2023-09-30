@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T11:06:16 IST" name="Default suite" finished-at="2023-09-27T11:06:16 IST" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T11:06:16 IST" name="Default test" finished-at="2023-09-27T11:06:16 IST" duration-ms="74">
+      <class name="com.CRM.VTiger.Practice.DataProviderPractice">
+        <test-method signature="Create(java.lang.String,int,char)[pri:0, instance:com.CRM.VTiger.Practice.DataProviderPractice@3b69e7d1]" started-at="2023-09-27T11:06:16 IST" name="Create" data-provider="dataSupplier" finished-at="2023-09-27T11:06:16 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sriyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+        <test-method signature="Create(java.lang.String,int,char)[pri:0, instance:com.CRM.VTiger.Practice.DataProviderPractice@3b69e7d1]" started-at="2023-09-27T11:06:16 IST" name="Create" data-provider="dataSupplier" finished-at="2023-09-27T11:06:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priyanka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+        <test-method signature="Create(java.lang.String,int,char)[pri:0, instance:com.CRM.VTiger.Practice.DataProviderPractice@3b69e7d1]" started-at="2023-09-27T11:06:16 IST" name="Create" data-provider="dataSupplier" finished-at="2023-09-27T11:06:16 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Debasish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create -->
+      </class> <!-- com.CRM.VTiger.Practice.DataProviderPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
