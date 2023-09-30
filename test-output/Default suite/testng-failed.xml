@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CRM.VTiger.organizationTest.CreateMultipleOrganizationTest">
+      <class name="com.CRM.VTiger.ContactTest.CreateContactTest">
         <methods>
           <include name="ToLaunchBrowser"/>
           <include name="CloseTheBrowser"/>
           <include name="CloseDatabaseConnection"/>
+          <include name="create"/>
           <include name="LoginToTheApplication"/>
           <include name="DatabaseConnection"/>
           <include name="LogoutFromTheApplication"/>
-          <include name="multipleOrg"/>
         </methods>
-      </class> <!-- com.CRM.VTiger.organizationTest.CreateMultipleOrganizationTest -->
+      </class> <!-- com.CRM.VTiger.ContactTest.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
